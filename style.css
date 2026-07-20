@@ -43,6 +43,7 @@ nav ul a:hover{
 }
 .herothings h1{
     margin-bottom:20px;
+    font-size: 60px;
 }
 
 .herothings p{
@@ -61,8 +62,140 @@ nav ul a:hover{
     padding: 80px 24px;
     overflow:hidden;
     background-color:#000;
-background-image: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.9)), url('./assets/banner.jpg');
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('./assets/banner.jpg');
 }
 body{
     font-family:"Inter", sans-serif;
+}
+
+.meetspeaker{
+    padding:100px 80px;
+}
+
+.meetspeaker h1{
+    text-align:center;
+    margin-bottom:60px;
+    font-size: 48px;
+}
+
+.speakergrid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.speakercard{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.speakercard img{
+    width:100%;
+    display:block;
+}
+
+.speakercard h6,
+.speakercard p{
+    padding:0 20px;
+}
+
+.bluep{
+    color:#1d4ed8;
+    font-size:12px;
+    font-weight:700;
+    margin-top:20px;
+}
+
+.speakercard h6{
+    font-size:24px;
+    margin:10px 0;
+}
+
+.greyp{
+    color:#575757;
+    margin-bottom:20px;
+}
+.securesect{
+    padding:100px 80px;
+    background:white;
+}
+.securesect h2{
+    text-align:center;
+    font-size:48px;
+    color:#0f172a;
+}
+.securesect > .greyp{
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:60px;
+    color:#575757;
+}
+.offergrid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.offercard{
+    background:white;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:25px;
+    
+}
+.offercardspecial{
+    background:#0f1c2d;
+    color:white;
+    border-radius:12px;
+    padding:25px;
+    
+}
+.offercard h2,
+.offercardspecial h2{
+    text-align:left;
+    font-size:52px;
+    margin:10px 0 5px;
+}
+.offercard ul,
+.offercardspecial ul{
+    margin-top:30px;
+    padding-left:20px;
+}
+.offercardspecial p{
+    color:#85acff;
+}
+.offercardspecial h2{
+    color:#fff;
+}
+.offercard li,
+.offercardspecial li{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+.offercardspecial li::marker{
+    color:#85acff;
+}
+.normalbtn{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    font-size:16px;
+    
+}
+.specialbtn{
+    background: #1d4ed8;
+    color:white;
+  width:100%;
+    margin-top:25px;
+    padding:15px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    font-size:16px;
 }
