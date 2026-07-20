@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ gap: 35px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+}
+.cmnbtn{
+    background: #1d4ed8;
+    color:white;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
