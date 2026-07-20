@@ -1,10 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 nav{
     display: flex;
     justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
 }
 nav ul{
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
+ align-items:center;
  list-style: none;
  gap: 35px;
 }
@@ -12,6 +20,9 @@ nav ul a{
     text-decoration: none;
     color: #575757;
     font-size: 16px;
+}
+nav ul a:hover{
+    color:#1d4ed8;
 }
 .cmnbtn{
     background: #1d4ed8;
@@ -22,4 +33,36 @@ nav ul a{
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
+}
+
+.heroparent div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+}
+.herothings h1{
+    margin-bottom:20px;
+}
+
+.herothings p{
+    max-width:700px;
+    margin-bottom: 200px;
+
+}
+.heroparent{
+    position:relative;
+    min-height: 620px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 80px 24px;
+    overflow:hidden;
+    background-color:#000;
+background-image: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.9)), url('./assets/banner.jpg');
+}
+body{
+    font-family:"Inter", sans-serif;
 }
