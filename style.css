@@ -199,6 +199,11 @@ body{
     font-weight:600;
     font-size:16px;
 }
+.event-details{
+    display: flex;
+    flex-direction: column;
+}
+
 footer{max-height: 100px;
     display: flex;
     justify-content: space-between;
@@ -221,4 +226,45 @@ footer div a{
 }
 footer div a:hover{
     color:#1d4ed8;
+}
+.event-details{
+    padding:100px 80px;
+    background:#f8fafc;
+}
+.event-details h2{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:60px;
+}
+
+.day{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+.day > h4{
+    color:#1d4ed8;
+    font-size:24px;
+    margin-bottom:30px;
+}
+.eventparent{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+    gap:25px;
+    padding:18px 0;
+    border-bottom:1px solid #f8fafc;
+}
+.event h4{
+    font-size:18px;
+    color:#0f172a;
+}
+.event{
+    margin-bottom: 10px;
+}
+.time{
+    color:#474f5f;
+    font-weight:700;
+    min-width:90px;
 }
