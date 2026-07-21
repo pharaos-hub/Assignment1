@@ -1,0 +1,1 @@
+in this website before footer , I have to add a special section that is not added in the ui design , it is a part of my assignment , adding what in this section would help me to get good marks, guide me as a ui designer
